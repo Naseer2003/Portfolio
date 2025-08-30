@@ -5,8 +5,7 @@ import { socials } from "../constants";
 import gsap from "gsap";
 
 const Contact = () => {
-  const text = `Got a question, how or project Idea?
-    WE’D love to hear from you and discus further!`;
+  const text = `Got a role to fill or a vision to build? Let’s connect and turn ideas into impact together!`;
   const items = [
     "Code with Passion",
     "Code with Passion",

@@ -5,16 +5,16 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
-  const text = `Passionate about clean architecture
-    I build scalable, high-performance solutions
-    from prototype to production`;
-  const aboutText = `Obsessed with crafting smooth, engaging web apps—from animation-rich React/Next.js interfaces to scalable backends with MongoDB & PostgreSQL. Every project I build blends performance, design, and user delight.
+  const text = `Expert in building complex multi-tenant
+    applications and engineering numerous mission-critical
+    billing systems with over a year of hands-on experience.`;
+  const aboutText = `Specializing in the architecture of high-scale multi-tenant platforms and enterprise-grade billing ecosystems. With over a year of hands-on experience, I bridge the gap between complex system design and rich, interactive user experiences. My focus is on engineering software that is built to scale, maintainable, and highly efficient.
 
 When I’m not coding:
-⚡️ Experimenting with GSAP and cool UI effects
-📚 Sharing projects & ideas with the dev community
-📖 Reading books to spark new ideas
-🎶 Vibing to music while pushing commits`;
+⚡️ Architecting complex systems and scaling databases
+📚 Exploring advanced multi-tenancy patterns & system design
+📖 Mentoring and sharing complex engineering insights
+🎶 Vibing to music while building high-scale production apps`;
 
   const imgRef = useRef(null);
   useGSAP(() => {

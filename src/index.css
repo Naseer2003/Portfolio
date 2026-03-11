@@ -87,6 +87,7 @@
   font-style: italic;
   font-display: swap;
 }
+
 @theme {
   --color-primary: #e5e5e0;
   --color-DarkLava: #393632;
@@ -96,10 +97,12 @@
   --font-amiamie-round: "Amiamie-Round", sans-serif;
 
   --animate-marquee: marquee 40s infinite linear;
+
   @keyframes marquee {
     from {
       transform: translateX(0);
     }
+
     to {
       transform: translateX(calc(-100% - var(--gap)));
     }
@@ -119,7 +122,7 @@ body {
 }
 
 @utility banner-text-responsive {
-  @apply text-[68px] sm:text-[118px] md:text-[126px] lg:text-[152px] leading-9 sm:leading-16 lg:leading-20;
+  @apply text-[68px] sm:text-[118px] md:text-[126px] lg:text-[152px] leading-[0.9] sm:leading-[0.85] lg:leading-[0.85];
 }
 
 @utility value-text-responsive {

@@ -1,78 +1,82 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "FullStack & System Architecture",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "I build scalable, high-performance applications with a focus on robust architecture. I specialize in designing systems that handle complexity and growth without compromising on security or efficiency.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Secure Auth Systems)",
+        title: "Multi-tenant Architecture",
+        description: "(Scalable SaaS structures, Data Isolation)",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "System Design",
+        description: "(Distributed Systems, Scalability, Performance)",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        title: "FullStack Development",
+        description: "(End-to-end application engineering)",
       },
     ],
   },
   {
-    title: "Frontend Libraries & Frameworks",
+    title: "Frontend Excellence",
     description:
-      "Building interactive and responsive user interfaces is essential in today’s digital world, ensuring smooth user experiences across devices. Modern frontend tools make it easier to create scalable, dynamic, and visually appealing web applications.",
+      "Creating immersive and responsive user interfaces using modern frameworks and animation libraries. I focus on smooth UX and performance-optimized frontend architectures.",
     items: [
       {
-        title: "React.js",
-        description: "Build dynamic, reusable, and efficient user interfaces",
+        title: "React.js & Next.js",
+        description: "(Dynamic, SEO-friendly web applications)",
       },
       {
-        title: "Next.js",
-        description: "Fast, scalable, and SEO-friendly web applications.",
+        title: "GSAP & Animations",
+        description: "(Smooth, high-performance motion design)",
       },
       {
-        title: "Express.js",
-        description: "Lightweight, flexible, and fast backend framework.",
+        title: "Tailwind CSS & ShadCN",
+        description: "(Utility-first styling, accessible UI components)",
+      },
+      {
+        title: "SEO Optimization",
+        description: "(Technical SEO, Meta tags, Structured Data)",
       },
     ],
   },
   {
-    title: "Ui Component Libraries and Styling",
+    title: "Backend & Database strategy",
     description:
-      "UI component libraries provide prebuilt, customizable elements that speed up development and maintain design consistency. They help create modern, responsive, and user-friendly interfaces efficiently.",
+      "I design and implement efficient backend services and optimized data layers. From relational databases to modern ORMs, I ensure data integrity and fast retrieval.",
     items: [
       {
-        title: "Tailwind CSS",
-        description: "Utility-first styling for responsive, modern designs",
+        title: "PostgreSQL & Prisma ORM",
+        description: "(Type-safe queries, relational data modeling)",
       },
       {
-        title: "GSAP",
-        description: "Smooth, high-performance animations for modern websites.",
+        title: "Node.js & Express.js",
+        description: "(Fast, scalable backend frameworks)",
       },
       {
-        title: "ShadCN UI",
-        description: "Accessible, customizable, and modern UI components.",
+        title: "MongoDB & Java",
+        description: "(NoSQL flexibility, robust cross-platform logic)",
       },
     ],
   },
   {
-    title: "Programming Languages & Databases",
+    title: "DevOps, Testing & Cloud",
     description:
-      "Programming languages are the foundation of software development, enabling us to communicate with computers and build applications. They power everything from simple scripts to complex systems driving today’s digital world.",
+      "Automating deployment pipelines and ensuring code quality through rigorous testing. I leverage containerization and cloud services for reliable production environments.",
     items: [
       {
-        title: "JavaScript, Typescript",
-        description: "Dynamic language powering interactive, modern web",
+        title: "Docker & Containerization",
+        description: "(Consistent environments across development/production)",
       },
       {
-        title: "Java",
-        description: "Robust, versatile language for cross-platform development",
+        title: "GitHub Actions & AWS",
+        description: "(CI/CD automation, Cloud deployment)",
       },
       {
-        title: "SQL, MongoDB",
-        description: "Structured queries for managing relational databases,Flexible NoSQL database for scalable applications.",
+        title: "Unit Testing (Jest)",
+        description: "(Reliable, bug-free code with test-driven mindset)",
       },
     ],
   },
@@ -80,92 +84,78 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "CodeSync - An Interview Platform",
+    name: "MSCureChain - Multi-tenant HMS",
     description:
-      "A smart interview platform that connects candidates and recruiters with real-time coding, video, and evaluation tools—streamlining the entire hiring process. Built for efficiency, fairness, and seamless experiences.",
-
-    href: "https://interview-platform-naseer.vercel.app/",
-    image: "/assets/projects/interview-plat.png",
+      "A highly complex multi-tenant Hospital Management System (HMS) featuring over 11 specialized dashboards with seamless interconnectivity and real-time data flow.",
+    href: "http://www.mscurechain.com/",
+    image: "/assets/projects/mscurechain.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "Convex DB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 3, name: "PostgreSQL" },
+      { id: 4, name: "Prisma" },
+      { id: 5, name: "Tailwind" },
     ],
   },
   {
     id: 2,
-    name: "Socially - Social Media Platform",
+    name: "MS Billing Softwares",
     description:
-      "A modern social media platform where users can connect, share, and engage with content in real time. Built with a sleek UI and smooth authentication for a seamless social experience.",
-    href: "https://socially-roan.vercel.app/",
-    image: "/assets/projects/socially.jpg",
+      "A suite of 7 industry-specific billing solutions tailored for Clothes, Labs, Pharma, Supermarkets, Electronics, Mobile shops, and Restaurants.",
+    href: "https://billing-landing-page.vercel.app/",
+    image: "/assets/projects/msbillingsoftwares.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Postgress SQL" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 2, name: "Tailwind CSS" },
+      { id: 3, name: "Node.js" },
+      { id: 4, name: "MongoDB" },
     ],
   },
   {
     id: 3,
-    name: "Spylt Clone",
+    name: "MS Techhive - Company Website",
     description:
-      "A feature-rich clone of Spylt that replicates its sleek UI and interactive animations. Designed to showcase modern frontend skills with GSAP, smooth transitions, and responsive layouts",
-    href: "https://spylt-clone-theta.vercel.app/",
-    image: "/assets/projects/spylt.jpg",
+      "A clean, professional company website featuring internal job management systems and employee-specific portals built for high efficiency.",
+    href: "https://www.mstechhive.com/",
+    image: "/assets/projects/mstechhive.png",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "React.js" },
-      { id: 2, name: "GSAP" },
-      { id: 3, name: "TailwindCSS" },
+      { id: 1, name: "React" },
+      { id: 2, name: "Next.js" },
+      { id: 3, name: "GSAP" },
+      { id: 4, name: "Tailwind" },
     ],
   },
   {
     id: 4,
-    name: "Velvet Pour - Mojito Website",
+    name: "SujanaGold - Gold Management System",
     description:
-      "A visually refreshing Mojito-themed website built with GSAP animations, delivering smooth scroll effects and interactive transitions. Designed to showcase creative frontend motion design with a modern aesthetic.",
-    href: "https://velvet-pour-five-mu.vercel.app/",
-    image: "/assets/projects/velvetPour.jpg",
+      "Comprehensive gold management and billing software integrated with advanced inventory management and powerful data analytics.",
+    href: "https://www.sujanagold.com/",
+    image: "/assets/projects/sujanagold.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
-      { id: 1, name: "React.js " },
-      { id: 2, name: "Tailwind CSS" },
-      { id: 3, name: "GSAP" },
+      { id: 1, name: "React" },
+      { id: 2, name: "Node.js" },
+      { id: 3, name: "PostgreSQL" },
+      { id: 4, name: "Prisma" },
     ],
   },
   {
     id: 5,
-    name: "BookShelf - Book store App",
+    name: "Achariashala Solutions",
     description:
-      "A book store app where you can purchase books and a special admin section to track the records of books and users.",
-    href: "",
-    image: "/assets/projects/books-store.jpg",
+      "Full-stack platform with complex backend interconnectivity, student registration management, and integrated hackathon modules.",
+    href: "https://www.achariashalasol.in/home",
+    image: "/assets/projects/achariashalasolutions.png",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Express" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Node.js" },
-    ],
-  },
-  {
-    id: 6,
-    name: "ThinkPad - just a notes app",
-    description:
-      "A simple notes app where you can create, read, update, and delete notes",
-    href: "",
-    image: "/assets/projects/thinkPad.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "React.js" },
       { id: 2, name: "Node.js" },
       { id: 3, name: "MongoDB" },
-      { id: 4, name: "Daisy UI" },
+      { id: 4, name: "Express" },
     ],
   },
 ];

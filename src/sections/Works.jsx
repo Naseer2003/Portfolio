@@ -10,9 +10,9 @@ const Works = () => {
   const previewRef = useRef(null);
 
   const [currentIndex, setCurrentIndex] = useState(null);
-  const text = `Featured projects that have been meticulously
-    crafted with passion to drive
-    results and impact.`;
+  const text = `A selection of mission-critical systems 
+    and complex enterprise solutions 
+    engineered to scale and deliver impact.`;
 
   const mouse = useRef({ x: 0, y: 0 });
   const moveX = useRef(null);
@@ -102,8 +102,8 @@ const Works = () => {
   return (
     <section id="work" className="flex flex-col min-h-screen">
       <AnimatedHeaderSection
-        subTitle={"Logic meets Aesthetics, Seamlessly"}
-        title={"Projects"}
+        subTitle={"Engineering Excellence, Proven impact"}
+        title={"Work Experience"}
         text={text}
         textColor={"text-black"}
         withScrollTrigger={true}
@@ -130,13 +130,17 @@ const Works = () => {
 
             <a href={project.href} target="_blank">
 
-            {/* title */}
-            <div className="flex justify-between px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
-              <h2 className="lg:text-[32px] text-[26px] leading-none">
-                {project.name}
-              </h2>
-              <Icon icon="lucide:arrow-up-right" className="md:size-6 size-5" />
-            </div>
+              {/* title */}
+              <div className="flex justify-between px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
+                <h2 className="lg:text-[32px] text-[26px] leading-none">
+                  {project.name}
+                </h2>
+                <Icon icon="lucide:arrow-up-right" className="md:size-6 size-5" />
+              </div>
+              {/* description */}
+              <p className="px-10 py-2 text-sm font-light text-black transition-all duration-500 md:text-base md:group-hover:text-white/80 md:group-hover:px-12">
+                {project.description}
+              </p>
             </a>
             {/* divider */}
             <div className="w-full h-0.5 bg-black/80" />

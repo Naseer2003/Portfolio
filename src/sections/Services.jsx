@@ -42,9 +42,9 @@ const Services = () => {
           style={
             isDesktop
               ? {
-                  top: `calc(10vh + ${index * 5}em)`,
-                  marginBottom: `${(servicesData.length - index - 1) * 5}rem`,
-                }
+                top: `calc(10vh + ${index * 5}em)`,
+                marginBottom: `${(servicesData.length - index - 1) * 5}rem`,
+              }
               : { top: 0 }
           }
         >
@@ -57,12 +57,17 @@ const Services = () => {
               <div className="flex flex-col gap-2 text-2xl sm:gap-4 lg:text-3xl text-white/80">
                 {service.items.map((item, itemIndex) => (
                   <div key={`item-${index}-${itemIndex}`}>
-                    <h3 className="flex">
-                      <span className="mr-12 text-lg text-white/30">
-                        0{itemIndex + 1}
-                      </span>
-                      {item.title}
-                    </h3>
+                    <div className="flex flex-col">
+                      <h3 className="flex">
+                        <span className="mr-8 text-lg text-white/30 sm:mr-12">
+                          0{itemIndex + 1}
+                        </span>
+                        {item.title}
+                      </h3>
+                      <p className="ml-12 text-sm font-light text-white/40 sm:ml-20 lg:text-lg">
+                        {item.description}
+                      </p>
+                    </div>
                     {itemIndex < service.items.length - 1 && (
                       <div className="w-full h-px my-2 bg-white/30" />
                     )}

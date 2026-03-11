@@ -53,7 +53,7 @@ export const servicesData = [
       },
       {
         title: "Node.js & Express.js",
-        description: "(Fast, scalable backend frameworks)",
+        description: "(JavaScript & TypeScript, scalable backend frameworks)",
       },
       {
         title: "MongoDB & Java",
